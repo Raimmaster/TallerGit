@@ -24,6 +24,7 @@ public class Alumno{
     }
 
     public String getApellido() {
+        apellido = "Renan";
         return apellido;
     }
 
