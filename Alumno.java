@@ -4,7 +4,7 @@ public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-   private int nota;   
+//   private int nota;   
    
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
