@@ -4,7 +4,7 @@ public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-   private int nota;   
+//   private int nota;   
    
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
@@ -12,6 +12,10 @@ public class Alumno{
         this.apellido = apellido;
 	//Prueba de Git
 	this.apellido = "Inter";
+	this.apellido += " Madrid";
+	
+	this.nota = Math.random() % 55 + 2;
+	
     }
 
     //GETs
