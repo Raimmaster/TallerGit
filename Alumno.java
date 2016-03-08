@@ -15,15 +15,19 @@ public class Alumno{
     }
 
     //GETs
+    //Conflicto Git
     public int getNumCuenta() {
         return numCuenta;
     }
 
     public String getPrimerNombre() {
+        primerNombre = "Leonardo";
         return primerNombre;
+
     }
 
     public String getApellido() {
+    	apellido = "Vasquez";
         return apellido;
     }
 
