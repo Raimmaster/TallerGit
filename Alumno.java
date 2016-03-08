@@ -12,6 +12,10 @@ public class Alumno{
         this.apellido = apellido;
 	//Prueba de Git
 	this.apellido = "Inter";
+	this.apellido += " Madrid";
+	
+	this.nota = Math.random() % 55 + 2;
+	
     }
 
     //GETs
