@@ -10,8 +10,6 @@ public class Alumno{
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
         this.apellido = apellido;
-	//Prueba de Git
-	this.apellido = "Inter";
     }
 
     //GETs
