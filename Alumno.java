@@ -20,6 +20,7 @@ public class Alumno{
 
     //GETs
     public int getNumCuenta() {
+        this.numCuenta = Math.random() % 100 + 1;
         return numCuenta;
     }
 
