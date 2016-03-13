@@ -15,7 +15,7 @@ public class Alumno{
 	this.apellido += " Madrid";
 	
 	this.nota = Math.random() % 55 + 2;
-	
+	//comentario
     }
 
     //GETs
