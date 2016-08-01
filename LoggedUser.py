@@ -26,6 +26,9 @@ class LoggedUser:
 	def listFiles(self): #ls		
 		f_names = []
 		
+		if(True):
+			print("Hola")
+
 		return ''.join(f_names) if len(f_names) > 0 else " " 
 
 	def removeFile(self, filename): #remove file
