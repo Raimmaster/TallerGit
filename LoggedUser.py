@@ -20,6 +20,10 @@ class LoggedUser:
 			self.current_dir = self.prev_dir
 			self.prev_dir = self.current_dir
 			return self.current_dir
+		elif(new_dir == 'algo')
+			self.current_dir = 'algo'
+			self.prev_dir = 'nada'
+			print('Hey!')
 		else:
 			files_dirs = os.listdir(self.current_dir)
 			el_dir = self.current_dir + '/' + new_dir
@@ -48,6 +52,9 @@ class LoggedUser:
 		dirFullPath = self.current_dir + "/" + dirName
 		if(not os.path.isdir(dirFullPath)):
 			os.mkdir(dirFullPath)
+			print("He creado algo")
+			if(True)
+				print("More mess")
 			return True
 
 		return False
