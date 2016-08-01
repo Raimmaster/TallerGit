@@ -25,14 +25,7 @@ class LoggedUser:
 
 	def listFiles(self): #ls		
 		f_names = []
-		for file in os.listdir(self.current_dir):
-			if(os.path.isdir(self.current_dir + '/' + file)):
-				f_names.append('*: ' + file + "\n")
-				print ("* %s " % file)
-			else:		
-				f_names.append(file + "\n")
-				print ("- %s " % file)
-
+		
 		return ''.join(f_names) if len(f_names) > 0 else " " 
 
 	def removeFile(self, filename): #remove file
