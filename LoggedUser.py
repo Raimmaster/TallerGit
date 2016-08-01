@@ -1,5 +1,5 @@
 import os
-
+ 
 class LoggedUser:
 
 	def __init__(self, username):
@@ -16,10 +16,6 @@ class LoggedUser:
 		print ('new dir: %s' % new_dir )
 		if (new_dir == own_dir):
 			print('Ya se encuentra en este directorio.')
-		elif(new_dir == '..'):
-			self.current_dir = self.prev_dir
-			self.prev_dir = self.current_dir
-			return self.current_dir
 		else:
 			files_dirs = os.listdir(self.current_dir)
 			el_dir = self.current_dir + '/' + new_dir
@@ -46,9 +42,6 @@ class LoggedUser:
 
 	def createDirectory(self, dirName): #mkdir
 		dirFullPath = self.current_dir + "/" + dirName
-		if(not os.path.isdir(dirFullPath)):
-			os.mkdir(dirFullPath)
-			return True
 
 		return False
 
