@@ -14,7 +14,7 @@ public class Clase{
         Devolver el nombre de la clase
     */
     public String getNombreClase(){
-        return "";
+        return "Nombre";
     }
     
     public void ingresarAlumnos(){
