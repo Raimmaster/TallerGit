@@ -4,33 +4,29 @@ public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-//   private int nota;
-
+//   private int nota;   
+   
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
         this.apellido = apellido;
-	//Pr
-    this.numCuenta = numCuenta;
-    this.primerNombre = primerNombre;
-    this.apellido = apellido;
-//Prueba de Git
+	//Prueba de Git
 	this.apellido = "Inter";
 	this.apellido += " Madrid";
-
+	
 	this.nota = Math.random() % 55 + 2;
-
+	
     }
 public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-//   private int nota;
-
+//   private int nota;   
+   
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
-
+        
 	Alumno David = new Alumno();
 	print(“Hello”)
 
@@ -46,15 +42,15 @@ public class Alumno{
 	//Prueba de Git
 	this.apellido = "Inter";
 	this.apellido += " Madrid";
-
+	
 	this.nota = Math.random() % 55 + 2;
-
+	
     }public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-//   private int nota;
-
+//   private int nota;   
+   
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
@@ -62,15 +58,15 @@ public class Alumno{
 	//Prueba de Git
 	this.apellido = "Inter";
 	this.apellido += " Madrid";
-
+	
 	this.nota = Math.random() % 55 + 2;
-
+	
     }public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-//   private int nota;
-
+//   private int nota;   
+   
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
@@ -78,9 +74,9 @@ public class Alumno{
 	//Prueba de Git
 	this.apellido = "Inter";
 	this.apellido += " Madrid";
-
+	
 	this.nota = Math.random() % 55 + 2;
-
+	
     }
 
     //GETs
@@ -108,14 +104,14 @@ public class Alumno{
     public void setNumCuenta(int num) {
         //Validar que el numero de cuenta no sea menor que 1
     }
-
+    
     /*
         Settear la nota
     */
     public void setNota(int note){
         //Validar que la nota esté entre 0 y 100
     }
-
+    
     /*
         Settear el primer nombre
     */
@@ -128,6 +124,6 @@ public class Alumno{
     */
     public void setApellido(String lastName) {
         //Que el nombre no tenga más de 20 caracteres
-    }
-
+    }   
+       
 }
