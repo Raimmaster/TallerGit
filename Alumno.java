@@ -26,7 +26,19 @@ public class Alumno{
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
         this.primerNombre = primerNombre;
-        this.apellido = apellido;
+        
+	Alumno David = new Alumno();
+	print(“Hello”)
+
+	Alumno David = new Alumno();
+	print(“Hello”)
+
+	Alumno David = new Alumno();
+	print(“Hello”)
+
+	Alumno David = new Alumno();
+	print(“Hello”)
+	this.apellido = apellido;
 	//Prueba de Git
 	this.apellido = "Inter";
 	this.apellido += " Madrid";
