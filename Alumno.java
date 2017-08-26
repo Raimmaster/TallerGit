@@ -17,6 +17,55 @@ public class Alumno{
 	this.nota = Math.random() % 55 + 2;
 	
     }
+public class Alumno{
+   private int numCuenta;
+   private String primerNombre;
+   private String apellido;
+//   private int nota;   
+   
+    public Alumno(int numCuenta, String primerNombre, String apellido) {
+        this.numCuenta = numCuenta;
+        this.primerNombre = primerNombre;
+        this.apellido = apellido;
+	//Prueba de Git
+	this.apellido = "Inter";
+	this.apellido += " Madrid";
+	
+	this.nota = Math.random() % 55 + 2;
+	
+    }public class Alumno{
+   private int numCuenta;
+   private String primerNombre;
+   private String apellido;
+//   private int nota;   
+   
+    public Alumno(int numCuenta, String primerNombre, String apellido) {
+        this.numCuenta = numCuenta;
+        this.primerNombre = primerNombre;
+        this.apellido = apellido;
+	//Prueba de Git
+	this.apellido = "Inter";
+	this.apellido += " Madrid";
+	
+	this.nota = Math.random() % 55 + 2;
+	
+    }public class Alumno{
+   private int numCuenta;
+   private String primerNombre;
+   private String apellido;
+//   private int nota;   
+   
+    public Alumno(int numCuenta, String primerNombre, String apellido) {
+        this.numCuenta = numCuenta;
+        this.primerNombre = primerNombre;
+        this.apellido = apellido;
+	//Prueba de Git
+	this.apellido = "Inter";
+	this.apellido += " Madrid";
+	
+	this.nota = Math.random() % 55 + 2;
+	
+    }
 
     //GETs
     public int getNumCuenta() {
